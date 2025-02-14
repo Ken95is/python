@@ -67,7 +67,11 @@
 # if y < 172:
 #     print(y ** 2)
 
+
+
+
+'---------------------------------------------------------------'
 # x = int(input('Год: '))
 # y = int(input('mesyac: '))
 # z = int(input('den: '))
-# print(f'Год: ',{x} 'mesyac: ', {y} 'den: ', {z})
+# print(f'Год: {x}', f'mesyac: {y}',  f'den: {z}' )
