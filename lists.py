@@ -20,11 +20,14 @@
 # list1 = [1,2,34,5,6,78,90,'hi', 232,'hello', True, 1,2,3,5,3,45,5]
 # list1.remove('hello') # удаляет элемент по значение 
 # print(list1)
+
 # list1.append('hi') # добавляет элемент в конец
 # print(list1)
 # list2 = [1,'hi',True]
+
 # list1.append(list2) 
 # print(list1) # [31,62,13,[1,2,3]]
+
 # list1.extend(list2)
 # print(list1) # [31,62,13,1,2,3]
 
@@ -207,3 +210,5 @@
 #     count += 1
 # else:
 #     print('hi')
+
+# #enumerate() - посмотреть потом

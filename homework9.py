@@ -15,8 +15,11 @@
 # mapped = map(int, numbers)
 # print(list(mapped))
 
-# 4
+# # 4
 # words = ['apple', 'banana', 'cherry', 'dog', 'elephant']
+# filtered = filter(lambda x: x[0] == 'd',words)
+# print(list(filtered))
+
 # letter = 'd'
 # filtered = filter(lambda word: letter in word, words)
 # print(list(filtered))
@@ -29,11 +32,13 @@
 # print(list(mapped))
 
 # 6
-students = ['Alice', 'Bob', 'Charlie', 'David']
-scores = [85, 92, 78, 90]
-# zip2 = zip(students, scores)
-scored = filter(lambda y: y > 80, scores)
-zip_ = zip(students, scored)
-enum = enumerate(zip_, 1)
-mapped = map(tuple, enum)
-print(list(mapped))
+# students = ['Alice', 'Bob', 'Charlie', 'David']
+# scores = [85, 92, 78, 90]
+# # zip2 = zip(students, scores)
+# scored = filter(lambda y: y > 80, scores)
+# zip_ = zip(students, scored)
+# enum = enumerate(zip_, 1)
+# mapped = map(tuple, enum)
+# print(list(mapped))
+
+

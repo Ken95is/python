@@ -105,3 +105,113 @@ AttributeError
 [].replace('','a')
 AttributeError: 'list' object has no attribute 'replace'
 '''
+
+'''
+''.pop()
+AttributeError: 'str' object has no attribute 'pop'
+'''
+
+SyntaxError
+'''
+my num = 56
+SyntaxError: invalid syntax
+'''
+'''
+a = 
+SyntaxError: invalid syntax
+'''
+IndentationError
+# исключение, которое выходит, когда мы используем неправильно отступы
+'''
+    num = 15
+IndentationError: unexpected indent
+'''
+'''
+for i in range(11):
+print(i)
+IndentationError: expected an indented block
+'''
+
+NameError
+# исключение, которое выходит когда мы обращаемся к несуществуещей переменной
+'''
+num1 = 15
+print(num2)
+NameError: name 'num2' is not defined
+'''
+
+Exception
+# исключение, которое создали чтобы его вызывать
+
+
+'===================================Вызов исключений======================================='
+# raise NameError('Я вызвал неймерор просто так')
+
+'================================Обработка исключений======================================'
+# чтобы код не прекращал свою работу, мы можем использовать конструкцию try-except, и обрабатывать вызванное исключение
+
+# count = 0
+# while count == 0:
+#     try:
+#         #код, который возможно вызовет ошибку
+#         num = int(input('Введите число '))
+#     except ValueError:
+#         # код который, отрабатывает только если ошибка вызвалась
+#         print('Вы ввели не число')
+#     else:
+#         # код который, отрабатывает только если никакая ошибка не вышла
+#         print('Вы ввели число ')
+#         break
+#     finally:
+#         print('До свидания!')
+
+# try:
+#     raise ValueError
+#     # raise NameError
+# except (AttributeError, ValueError):
+#     print('Вышла ошибка - AttributeError или ValueError')
+
+
+# try:
+#     raise ZeroDivisionError
+# except:  # если пустой оставить он проверит все ошибки
+#     print('hi')
+
+# try:
+#     raise ZeroDivisionError
+# except Exception:
+#     print('hi')
+
+# ... - заглушка
+
+# try:
+#     raise ValueError
+# except ValueError:
+#     print('Вышел ValueError')
+# except TypeError:
+#     print('Вышел TypeError')
+
+# new_var = print(number123)
+# new_var
+
+# try:
+#     password = input('Введите пароль: ')
+#     if password == 'hello123':
+#         print('Вы в системе')
+#     elif password != 'hello123':
+#         raise Exception('Вы ввели пароль неверно!!!')
+# except Exception as m:
+#     print(m)
+
+# # from math import sqrt as s
+# # print(s(81))
+
+# try:    #не может существовать без except и finally
+#     print(11)
+# finally:
+#     print('hi')
+
+# try:
+#     print(20)
+# except:
+#     print(2)

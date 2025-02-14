@@ -1,17 +1,24 @@
 'LISTS'
 #1
+
 # list1 = [1,2,3,4,5]
-# list1.insert(5,6)
+# list2 = [6]
+# list1.append(list2) # 1 способ(append можно на extend)
 # print(list1)
+
+# list1 = [1,2,3,4,5]
+# list1.insert(5,6) # 2 способ
+# print(list1)
+
 
 #2
 # list1 = [1,2,3,4,5]
-# # print(list1.pop(2))
-# poped_item = list1.pop(2) #не получилось как в задании
+# print('Удаленный элемент ',list1.pop(2))
+# # poped_item = list1.pop(2) #не уверен правильно ли
 # print(('Обновленный список: '), list1)
 
-#3
-# list2 = ['яблоко', 'банан', 'вишня'] #не совсем как в задании надо спросить как правильно
+# #3
+# list2 = ['яблоко', 'банан', 'вишня'] #не совсем как в задании не удалось вывести удаленный элемент, надо спросить как правильно
 # list2.remove('банан')
 # list2.append('персик')
 # print(list2)
@@ -48,7 +55,7 @@
 # count = 1
 # while count <= 100:
 #     count +=1
-#     if count % 3 == 0 and count % 5 == 0 : #не решил
+#     if count % 3 == 0 and count % 5 == 0 :
 #         print(count) 
 
 # 3
@@ -56,7 +63,11 @@
 #     if i % 2 == 0 and i % 3 == 0 and i % 9 == 0:
 #         print(i)
 
-# while 
+# count = 1
+# while count <= 100:
+#     count += 1
+#     if count % 2 == 0 and count % 3 == 0 and count % 9 == 0 :
+#         print(count)
 
 # 4
 
@@ -69,7 +80,10 @@
 #5
 
 # "Ботнет IPStorm" = ['Windows-машины','увеличился до 13500 зараженных систем']
-# my_string = "Ботнет IPStorm" #надо спросить
-# int1 = int(my_string)
-# if my_string.isdigit:
-#     print(my_string * 2)
+# my_string = "Ботнет IPStorm" #не понял задание, надо спросить
+# my_string2 = sorted(my_string, key=int)
+# print(my_string2)
+
+# int1 = list(my_string)
+# if int1.isdigit:
+#     print(int1 * 2)
