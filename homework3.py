@@ -79,11 +79,12 @@
 
 #5
 
-# "Ботнет IPStorm" = ['Windows-машины','увеличился до 13500 зараженных систем']
-# my_string = "Ботнет IPStorm" #не понял задание, надо спросить
-# my_string2 = sorted(my_string, key=int)
-# print(my_string2)
-
-# int1 = list(my_string)
-# if int1.isdigit:
-#     print(int1 * 2)
+my_string = 'Ботнет IPStorm Windows-машины увеличился до 13500 зараженных систем'
+result = []
+for i in my_string:
+    if i.isdigit():
+        result.append(str(int(i) * 2))
+    else:
+        result.append(i)
+result1 = ''.join(result)
+print(result1)
