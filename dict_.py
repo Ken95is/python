@@ -56,8 +56,8 @@ print(dict2)
 
 # pop - удаляет пару по ключу и возвращает значение
 # dict1 = {'a':1, 'b':2}
-# # poped_values = dict1.pop('b')
-# # print(poped_values) #удалит переменную 'b' и вернет ее в "poped_values"
+# poped_values = dict1.pop('b')
+# print(poped_values) #удалит переменную 'b' и вернет ее в "poped_values"
 
 
 # #popitem - удаляет последнюю пару и возвращает ее

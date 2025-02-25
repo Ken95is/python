@@ -21,6 +21,7 @@ dict
 # print(comp)
 
 # comp = [i for i in range(11) if i % 2 == 0]
+# print(comp)
 
 #list1 = [-12, 93, 0, 4, -1]
 #list2 = ['-', '+', '+', '+', '-]

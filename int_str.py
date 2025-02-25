@@ -55,29 +55,29 @@ y = 3
 
 
 # x = 81
-# print(x ** 0.5) #нашли кв koren cherez formulu
+# print(x ** 0.5) #нашли кв корень через формулу
 
 # from math import sqrt
-# #iz faila importiruy eto
+# # из файла импортируй это
 
-# print(sqrt (x)) # nashli kv koren cherez funkciyu sqrt
+# print(sqrt (x)) # нашли кв корень через функцию sqrt
 
 #pow
-# 1) vozvodit v stepen
-# 2) nahodit ostatok
+# 1) возводит в степень
+# 2) находит остаток
 #print(pow(5, 3, 2, 4)) # (5 ** 3) % 2 = 1
 
 str1 = 'metalabs '
 num1 = 2
 
 #print(str1 + num1) # error
-#print(str1 * num1) # viydet 100 raz metalabs
+#print(str1 * num1) # выйдет 100 раз metalabs
 
 str1 = 'hello '
 str2 = 'world'
 # print(str1 + str2) #hello world
 
-#konkatenaciya - process slojeniya strok
+# конкатенация - процесс сложения строк
 
 # name = input('Vvedite imya: ')
 # age = int(input('Vvedite svoy vozrast: '))
@@ -87,18 +87,18 @@ str2 = 'world'
 # # print(type(age))
 
 
-#print(int('124')) # '124' -> 124
+# print(int('124')) # '124' -> 124
 
-# print('Privet\nmir') #\n perenosit stroku vniz
-# print('Privet\tmir') #\t dobavlyaet tabulyaciyu(neskolko probelov)
-# print('\tPrivet\n\tmir')
+# print('Привет\nмир') #\n переносит строку вниз
+# print('Привет\tмир') #\t добавляет табуляцию(несколько пробелов)
+# print('\tПривет\n\tмир')
 
-#ekranirovanie - ispolzovanie komand vnutri stroki
+# экранирование - использование комманд внутри строки
 
 
-#print(len('hello world')) #11, koll-vo simvolov v stroke
+# print(len('hello world')) #11, кол-во символов в строке
 
-#index - numeraciya posledovatelnosti, nachbinaetsya s 0
+#index - нумерация последовательности, начинается с 0
 #'m e t a l a b s'
 # 0 1 2 3 4 5 6 7
 #       ...-3-2-1
@@ -111,5 +111,5 @@ str2 = 'adsfsdfsdfsdgasgsdgssfs'
 
 print(str1[0:5]) #hello
 print(str1[::2]) #hlowrd - перепрыгнул
-
-#srezy [start:end:step] - eto chast stroki # старт конец и шаг важно запоимнить!
+print(str1[::-1]) #dlrow olleh 
+#srezy [start:end:step] - это часть строки # старт конец и шаг важно запомнить!
