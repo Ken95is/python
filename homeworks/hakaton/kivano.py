@@ -19,6 +19,5 @@ for telephone in telephones:
     price.append(telephone.find('div', class_='listbox_price text-center').text.replace('<strong>', '***').replace('\n', '').strip('***'))
     tel = list(zip(title, price, image))
 
-# print(tel)
 with open('kiv.json', 'w', encoding='utf-8') as file:
     json.dump(tel, file, indent=4, ensure_ascii=False)

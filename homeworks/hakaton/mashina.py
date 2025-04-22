@@ -7,7 +7,7 @@ res = requests.get(URL)
 
 html = res.text
 soup = bs(html, 'lxml')
-all_cars = soup.find_all('div', class_='listing-main-block')
+# all_cars = soup.find_all('div', class_='listing-main-block')
 
 
 cars = soup.find('div', class_='category-block-content').find_all('div', 'category-block-content-item')
@@ -69,5 +69,5 @@ car_result.append({'Легковые ': car_name_price})
 car_result.append({'Коммерческие ': commercial_name_price})
 car_result.append({'Специальные ': special_name_price})
 
-with open('mashina.json', 'a') as file:
+with open('mashina.json', 'w') as file:
     json.dump(car_result, file, indent=4, ensure_ascii=False)
